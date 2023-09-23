@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  background-color: #212121;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading > p {
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 2rem 2.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  box-shadow: 1px 1px 5px #fff;
+  letter-spacing: 0.2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
